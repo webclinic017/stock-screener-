@@ -5,7 +5,7 @@ class AlpacaAuth:
         self.alpaca_endpoint = alpaca_endpoint
 
 alpacaAuth = AlpacaAuth(
-    alpaca_api_key="PKLVDOP71I95P0BPWCV5",
-    alpaca_secret_key="hOJ8X5GjZhAILeGSBAbvi021uE16bysXtaWts0vA",
-    alpaca_endpoint="https://paper-api.alpaca.markets"
+    alpaca_api_key="YOUR-API-KEY",
+    alpaca_secret_key="YOUR-SECRET-KEY",
+    alpaca_endpoint="https://paper-api.alpaca.markets" #endpoint live or paper
 )
