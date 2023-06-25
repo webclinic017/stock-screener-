@@ -9,6 +9,7 @@ class StockScreener:
         self.alpaca_api = alpaca_api
         self.technical_indicators = TechnicalIndicators()
         self.financial_ratios = FinancialRatios()
+        self.run()
 
     def get_stock_data(self, symbols):
         stock_data = fetch_stock_data(symbols)
